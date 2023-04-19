@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82B9E5B29B2BB2A0025391F /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B9E5A29B2BB2A0025391F /* AddContactTableViewController.swift */; };
+		D82B9E5D29B3EEF50025391F /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B9E5C29B3EEF50025391F /* ContactTableViewCell.swift */; };
 		D88D102829B1581700514283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D102729B1581700514283 /* AppDelegate.swift */; };
 		D88D102A29B1581700514283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D102929B1581700514283 /* SceneDelegate.swift */; };
-		D88D102C29B1581700514283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D102B29B1581700514283 /* ViewController.swift */; };
+		D88D102C29B1581700514283 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D102B29B1581700514283 /* ContactsViewController.swift */; };
 		D88D102F29B1581700514283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88D102D29B1581700514283 /* Main.storyboard */; };
 		D88D103229B1581700514283 /* ContactApp_Seiken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D88D103029B1581700514283 /* ContactApp_Seiken.xcdatamodeld */; };
 		D88D103429B1581800514283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88D103329B1581800514283 /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 		D88D104229B1581800514283 /* ContactApp_SeikenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D104129B1581800514283 /* ContactApp_SeikenTests.swift */; };
 		D88D104C29B1581800514283 /* ContactApp_SeikenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D104B29B1581800514283 /* ContactApp_SeikenUITests.swift */; };
 		D88D104E29B1581800514283 /* ContactApp_SeikenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D104D29B1581800514283 /* ContactApp_SeikenUITestsLaunchTests.swift */; };
+		D88D105B29B2937600514283 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88D105A29B2937600514283 /* ProfileViewController.swift */; };
+		D8F580A129B5651200E7C687 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F580A029B5651200E7C687 /* UIImage+Extensions.swift */; };
+		D8F580A829B5814100E7C687 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F580A729B5814100E7C687 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D82B9E5A29B2BB2A0025391F /* AddContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
+		D82B9E5C29B3EEF50025391F /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		D88D102429B1581700514283 /* ContactApp-Seiken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ContactApp-Seiken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88D102729B1581700514283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88D102929B1581700514283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D88D102B29B1581700514283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D88D102B29B1581700514283 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		D88D102E29B1581700514283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D88D103129B1581700514283 /* ContactApp_Seiken.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactApp_Seiken.xcdatamodel; sourceTree = "<group>"; };
 		D88D103329B1581800514283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		D88D104729B1581800514283 /* ContactApp-SeikenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ContactApp-SeikenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88D104B29B1581800514283 /* ContactApp_SeikenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactApp_SeikenUITests.swift; sourceTree = "<group>"; };
 		D88D104D29B1581800514283 /* ContactApp_SeikenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactApp_SeikenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D88D105A29B2937600514283 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D8F580A029B5651200E7C687 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		D8F580A729B5814100E7C687 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D82B9E5E29B3EF030025391F /* CustemCells */ = {
+			isa = PBXGroup;
+			children = (
+				D82B9E5C29B3EEF50025391F /* ContactTableViewCell.swift */,
+			);
+			path = CustemCells;
+			sourceTree = "<group>";
+		};
 		D88D101B29B1581700514283 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +121,12 @@
 			children = (
 				D88D102729B1581700514283 /* AppDelegate.swift */,
 				D88D102929B1581700514283 /* SceneDelegate.swift */,
-				D88D102B29B1581700514283 /* ViewController.swift */,
+				D88D102B29B1581700514283 /* ContactsViewController.swift */,
+				D88D105A29B2937600514283 /* ProfileViewController.swift */,
+				D82B9E5A29B2BB2A0025391F /* AddContactTableViewController.swift */,
+				D8F580A729B5814100E7C687 /* HelperFunctions.swift */,
+				D8F580A229B5651700E7C687 /* Extensions */,
+				D82B9E5E29B3EF030025391F /* CustemCells */,
 				D88D102D29B1581700514283 /* Main.storyboard */,
 				D88D103329B1581800514283 /* Assets.xcassets */,
 				D88D103529B1581800514283 /* LaunchScreen.storyboard */,
@@ -128,6 +151,14 @@
 				D88D104D29B1581800514283 /* ContactApp_SeikenUITestsLaunchTests.swift */,
 			);
 			path = "ContactApp-SeikenUITests";
+			sourceTree = "<group>";
+		};
+		D8F580A229B5651700E7C687 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8F580A029B5651200E7C687 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88D102C29B1581700514283 /* ViewController.swift in Sources */,
+				D88D102C29B1581700514283 /* ContactsViewController.swift in Sources */,
 				D88D103229B1581700514283 /* ContactApp_Seiken.xcdatamodeld in Sources */,
+				D8F580A829B5814100E7C687 /* HelperFunctions.swift in Sources */,
+				D88D105B29B2937600514283 /* ProfileViewController.swift in Sources */,
+				D82B9E5D29B3EEF50025391F /* ContactTableViewCell.swift in Sources */,
 				D88D102829B1581700514283 /* AppDelegate.swift in Sources */,
+				D8F580A129B5651200E7C687 /* UIImage+Extensions.swift in Sources */,
 				D88D102A29B1581700514283 /* SceneDelegate.swift in Sources */,
+				D82B9E5B29B2BB2A0025391F /* AddContactTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
